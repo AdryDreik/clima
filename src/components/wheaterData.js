@@ -5,9 +5,8 @@ class wheaterData extends Component {
   render() {
     return (
       <div>
-        Este es el wheaterData
         <WheaterTemperature></WheaterTemperature>
-        <WheaterExtraInfo></WheaterExtraInfo>
+        <WheaterExtraInfo humidity={80} wind={'10 m/s'}></WheaterExtraInfo>
       </div>
     )
   }

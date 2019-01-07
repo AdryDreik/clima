@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class location extends Component {
+class location extends Component { 
   render() {
     return (
       <div>
-        Esta sera la locacion
+        <h1>{this.props.city}</h1>
       </div>
     );
   }
 }
 
-export default location;
+export default location; 

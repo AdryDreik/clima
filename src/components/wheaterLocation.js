@@ -5,7 +5,7 @@ class wheaterLocation extends Component {
   render() {
     return (
       <div>
-        <Location></Location>
+        <Location city={'Buenos Aires'}></Location>
         <WheaterData></WheaterData> 
       </div>
     );
